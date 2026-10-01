@@ -1,0 +1,2 @@
+# scriptcopy
+Copy script

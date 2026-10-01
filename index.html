@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIMBO HUB</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    min-height:100vh;
+    background:#101010;
+    color:#fff;
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:520px;
+    background:#1d1d1d;
+    border:1px solid #333;
+    border-radius:22px;
+    padding:24px;
+    box-shadow:0 12px 35px #0008;
+}
+
+h1{
+    text-align:center;
+    margin:0 0 22px;
+}
+
+.info{
+    line-height:1.9;
+    font-size:15px;
+}
+
+.script-title{
+    margin-top:20px;
+    font-weight:bold;
+}
+
+.script-box{
+    margin-top:10px;
+    background:#080808;
+    border:1px solid #333;
+    border-radius:13px;
+    padding:15px;
+}
+
+#script{
+    font-family:monospace;
+    font-size:13px;
+    line-height:1.6;
+    word-break:break-all;
+    white-space:pre-wrap;
+}
+
+.copy-btn{
+    width:100%;
+    margin-top:14px;
+    padding:13px;
+    border:0;
+    border-radius:12px;
+    background:#fff;
+    color:#111;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.copy-btn:active{
+    transform:scale(.98);
+}
+
+.support{
+    margin-top:18px;
+    padding:12px;
+    border-radius:10px;
+    background:#151515;
+    line-height:1.6;
+}
+
+.author{
+    text-align:center;
+    margin-top:18px;
+    color:#aaa;
+}
+
+.note{
+    margin-top:15px;
+    color:#777;
+    font-size:12px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>🔔 LIMBO HUB</h1>
+
+    <div class="info">
+        🎮 <b>NAMA GAME :</b> STEAL AN EGG<br>
+        🔓 <b>STATUS :</b> NO KEY
+    </div>
+
+    <div class="script-title">
+        📁 LINK SCRIPT
+    </div>
+
+    <div class="script-box">
+        <div id="script">loadstring(game:HttpGet("https://limbohub.my.id/loader.lua"))()</div>
+
+        <button class="copy-btn" onclick="copyScript()">
+            📋 COPY SCRIPT
+        </button>
+    </div>
+
+    <div class="support">
+        ⚡ <b>Support:</b> Boss event
+    </div
